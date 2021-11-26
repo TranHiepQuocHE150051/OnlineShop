@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-07-2021, 22:49:08
+    Author     : Grimmy
+*/
+
+.left_banner {
+    display: inline-block;
+}
+.left-cms {
+    color: #000;
+}
+.feature-i-left h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.feature-i-left:hover h6 {
+    color: #e74c3c;
+}
+.left-cms ul > li {
+    border-top: 3px solid #e5e5e5;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.left-cms ul > li:last-child {
+    border-bottom: 3px solid #e5e5e5;
+}
+.left-special.left-sidebar-widget li {
+    display: inline-block;
+}
+#left-special .product-list .product-thumb .image, #bests-pro .product-list .product-thumb .image, #featu-pro .product-list .product-thumb .image, #new-pro .product-list .product-thumb .image {
+    width: auto;
+}
+.list-group-item {
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0px;
+}
+input#amount {
+    border: 0;
+    color: #e74c3c;
+    font-weight: 700;
+    font-size: 16px;
+    width: 140px;
+}
+.Shipping, .Order, .Save, .Safe {
+    background: transparent url("image/sprite.png") no-repeat scroll -127px -238px;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.Order {
+    background-position: -127px -120px;
+}
+.Save {
+    background-position: -127px -238px;
+}
+.Safe {
+    background-position: -128px -357px;
+}
+.feature-i-left:hover .Shipping {
+    background-position: 2px 0px;
+}
+.feature-i-left:hover .Order {
+    background-position: 2px -120px;
+}
+.feature-i-left:hover .Save {
+    background-position: 2px -238px;
+}
+.feature-i-left:hover .Safe {
+    background-position: 1px -357px;
+}
+.Tags.left-sidebar-widget li {
+    background: #f2f2f2 none repeat scroll 0 0;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 8px 17px;
+}
+.Tags.left-sidebar-widget li:hover {
+    background: #e74c3c none repeat scroll 0 0;
+}
+.Tags.left-sidebar-widget li:hover a {
+    color: #fff;
+}
+#left-blog .blog-item {
+    display: inline-block;
+}
+.blog-category li {
+    margin: 0 0 10px;
+}

@@ -1,0 +1,11 @@
+<%          }
+
+            }
+            if (username.equals("")) {%>
+        <h2>You need Login to check out</h2>
+        <a href="ControllerLogin">Login Here</a>     
+        <%      }
+        } else {%>
+        <h2>You need Login to check out</h2>
+        <a href="ControllerLogin">Login Here</a> 
+        <%}%>
